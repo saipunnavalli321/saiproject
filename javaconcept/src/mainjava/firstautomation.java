@@ -19,7 +19,9 @@ System.setProperty("webdriver.chrome.driver","C:\\grid\\drivers\\chromedriver.ex
 
  WebDriver driver= new ChromeDriver();
  
- driver.get("https://www.youtube.com/");
+ driver.get("https://www.google.com/");
+ 
+ System.out.println("test");
  
  System.out.println(driver.getTitle());
 
